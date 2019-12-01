@@ -1,9 +1,16 @@
-.navbar-static-top {
-    position: static;
+/* .navbar-static-top { */
+.navbar, .navbar-static-top {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.container-fluid > .row-fluid {
+    width: 100%;
+    margin: 50px;
 }
  .table-of-content {
     background-color: gray;
-    /*position: fixed;*/
+    position: fixed;
 
 }
 
@@ -17,6 +24,7 @@
 }
 
 .article-content {
-        background-color: lightgreen;
-
+    background-color: lightgreen;
+    /* margin: 0px 150px 0px; */
+    /* padding-left: 200px; */
 }
