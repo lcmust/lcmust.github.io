@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>fastman time-manage - 101 — Quick Start</title><link href="https://lcmust.github.io/" rel="alternate"></link><link href="https://lcmust.github.io/feeds/101-quick-start.atom.xml" rel="self"></link><id>https://lcmust.github.io/</id><updated>2019-01-11T17:30:47+01:00</updated><entry><title>Quickly get a GitHub hosted blog with Pelican, Elegant with little setup steps.</title><link href="https://lcmust.github.io/quickly-get-a-github-hosted-blog-with-pelican-elegant-with-little-setup-steps.html" rel="alternate"></link><published>2019-01-11T17:30:47+01:00</published><updated>2019-01-11T17:30:47+01:00</updated><author><name>Pablo Iranzo Gómez</name></author><id>tag:lcmust.github.io,2019-01-11:/quickly-get-a-github-hosted-blog-with-pelican-elegant-with-little-setup-steps.html</id><summary type="html">
+&lt;h1 id="introduction"&gt;Introduction&lt;a class="headerlink" href="#introduction" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;We're using automation for some of the aspects of Elegant development, but one of the issues for users trying to setup a new site with Pelican is to download plugins, theme, doing configuration, etc.&lt;/p&gt;
+&lt;p&gt;Based on this feedback, a new 'blog-o-matic' approach has been tested:&lt;/p&gt;
+&lt;h1 id="the-approach"&gt;The approach&lt;a class="headerlink" href="#the-approach" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://github.com/iranzo/blog-o-matic/"&gt;Blog-o-Matic&lt;/a&gt;, uses …&lt;/p&gt;</summary><content type="html">
+&lt;h1 id="introduction"&gt;Introduction&lt;a class="headerlink" href="#introduction" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;We're using automation for some of the aspects of Elegant development, but one of the issues for users trying to setup a new site with Pelican is to download plugins, theme, doing configuration, etc.&lt;/p&gt;
+&lt;p&gt;Based on this feedback, a new 'blog-o-matic' approach has been tested:&lt;/p&gt;
+&lt;h1 id="the-approach"&gt;The approach&lt;a class="headerlink" href="#the-approach" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://github.com/iranzo/blog-o-matic/"&gt;Blog-o-Matic&lt;/a&gt;, uses several discussed topics so far:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com"&gt;Github&lt;/a&gt; and GH Pages for hosting the source and the website&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://travis-ci.org"&gt;Travis-CI.org&lt;/a&gt; for automating the update and generation process&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.getpelican.com/"&gt;'Pelican'&lt;/a&gt; for static rendering of your blog from the markdown or AsciiDoc articles&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Pelican-Elegant/elegant"&gt;'Elegant'&lt;/a&gt; for the 'Theme'&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/buildinspace/peru"&gt;peru&lt;/a&gt; for automating repository upgrades for plugins, etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The setup process is outlined at its &lt;a href="https://github.com/iranzo/blog-o-matic/"&gt;README.md&lt;/a&gt; and just requires a few steps to setup that, from that point, will allow you to get your website published each time you commit a new document to the content folder.&lt;/p&gt;
+&lt;p&gt;You can also check the 'generated' website after installation via &lt;a href="https://iranzo.github.io/blog-o-matic"&gt;https://iranzo.github.io/blog-o-matic&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="how-does-it-work-under-the-hood"&gt;How does it work under the hood?&lt;a class="headerlink" href="#how-does-it-work-under-the-hood" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;The repository, contains already the required setups and configurations for setting up a blog using github pages.&lt;/p&gt;
+&lt;p&gt;It requires some manual steps like configuring authentication token in order for automation to 'push' to github the 'rendered webpage', plus enabling 'Travis CI' automation for doing that step.&lt;/p&gt;
+&lt;p&gt;Check the updated &lt;a href="https://github.com/iranzo/blog-o-matic"&gt;README on Blog-o-Matic&lt;/a&gt; if you're interested in the setup, but thing is:&lt;/p&gt;
+&lt;h2 id="setup"&gt;Setup&lt;a class="headerlink" href="#setup" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Repository contains already predefined Travis CI configuration&lt;/li&gt;
+&lt;li&gt;A GH token is needed for Travis CI to push to the 'master' branch that is used by github pages&lt;/li&gt;
+&lt;li&gt;The token needs to be configured as environment variable in 'travis-ci.org' which needs to be enabled for your repository&lt;/li&gt;
+&lt;li&gt;Once this is done, all the automation is ready.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="automation-workflow"&gt;Automation workflow&lt;a class="headerlink" href="#automation-workflow" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The automation, on a new 'commit' (new config, new article, whatever), that can be even done via github.com Web User Interface, will launch a set of tasks:&lt;/p&gt;
+&lt;h3 id="preparation"&gt;Preparation&lt;a class="headerlink" href="#preparation" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Setup python environment (Pelican uses python)&lt;/li&gt;
+&lt;li&gt;Install tool 'peru' to sync from other repositories (for later syncing plugins, latest theme, etc)&lt;/li&gt;
+&lt;li&gt;Launch the synchronization of themes, plugins etc (as defined in &lt;code&gt;peru.yaml&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="validation"&gt;Validation&lt;a class="headerlink" href="#validation" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Validate that web page builds (&lt;code&gt;make html&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Validate that it builds with publish configuration (&lt;code&gt;make publish&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="deployment"&gt;Deployment&lt;a class="headerlink" href="#deployment" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Copy extra files to generated website&lt;/li&gt;
+&lt;li&gt;Update the checked out git config to use https so that we can use the token defined in environment variable &lt;code&gt;GHTOKEN&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Regenerate website and push to github&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="blog-is-ready"&gt;Blog is ready!&lt;a class="headerlink" href="#blog-is-ready" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;At this point, Travis CI will have built the blog with the sample content &lt;code&gt;content/welcome.md&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Keep adding new files to your new repository in the &lt;code&gt;content/&lt;/code&gt; folder and check the configuration settings in &lt;code&gt;pelicanconf.py&lt;/code&gt; to customize your name, twitter, SEO, etc&lt;/p&gt;
+&lt;p&gt;Bear in mind, that at this point you're using a regular Elegant setup with Pelican and some Pelican Plugins, so refer to &lt;code&gt;peru.yaml&lt;/code&gt; for the URLs containing the files and extra information that might be helpful for you to learn on the features and customization possibilities.&lt;/p&gt;
+&lt;p&gt;Enjoy your Elegant blog!&lt;/p&gt;</content><category term="101 — Quick Start"></category><category term="pelican"></category><category term="foss"></category><category term="travis"></category><category term="ci/cd"></category><category term="elegant"></category><category term="blog"></category><category term="python"></category><category term="github"></category><category term="blog-o-matic"></category></entry></feed>

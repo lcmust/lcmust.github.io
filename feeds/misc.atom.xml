@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>fastman time-manage - misc</title><link href="https://lcmust.github.io/" rel="alternate"></link><link href="https://lcmust.github.io/feeds/misc.atom.xml" rel="self"></link><id>https://lcmust.github.io/</id><updated>2019-02-27T07:58:03+08:00</updated><entry><title>time-recored</title><link href="https://lcmust.github.io/time-recored.html" rel="alternate"></link><published>2019-02-27T07:58:03+08:00</published><updated>2019-02-27T07:58:03+08:00</updated><author><name>lcmust@qq.com</name></author><id>tag:lcmust.github.io,2019-02-27:/time-recored.html</id><summary type="html">&lt;!-- Status: draft --&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;时间记录--养成记录时间使用的习惯&lt;/p&gt;
+&lt;p&gt;1 起床 06:40
+2 洗漱 06:45
+3 flask_bootstrapVue 07:40
+4 俯卧撑35 07:45
+5 this-recored5 07:50
+6 newpelicanBlog 08:05
+7 WWCC 08:15
+8 clearBody 08:20
+9 breakfast 08:40
+10 bikework 08:45
+11 towork 08:55&lt;/p&gt;
+&lt;p&gt;学习使用markdown，表格中无样式，难道是要自己添加CSS样式？&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;tables&lt;/th&gt;
+&lt;th&gt;are …&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;/table&gt;</summary><content type="html">&lt;!-- Status: draft --&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;时间记录--养成记录时间使用的习惯&lt;/p&gt;
+&lt;p&gt;1 起床 06:40
+2 洗漱 06:45
+3 flask_bootstrapVue 07:40
+4 俯卧撑35 07:45
+5 this-recored5 07:50
+6 newpelicanBlog 08:05
+7 WWCC 08:15
+8 clearBody 08:20
+9 breakfast 08:40
+10 bikework 08:45
+11 towork 08:55&lt;/p&gt;
+&lt;p&gt;学习使用markdown，表格中无样式，难道是要自己添加CSS样式？&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;tables&lt;/th&gt;
+&lt;th&gt;are&lt;/th&gt;
+&lt;th&gt;here&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;row1&lt;/td&gt;
+&lt;td&gt;row2&lt;/td&gt;
+&lt;td&gt;row3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;line11&lt;/td&gt;
+&lt;td&gt;line12&lt;/td&gt;
+&lt;td&gt;line13&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;line21&lt;/td&gt;
+&lt;td&gt;line22&lt;/td&gt;
+&lt;td&gt;line23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;table1&lt;/th&gt;
+&lt;th&gt;table2&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;line11&lt;/td&gt;
+&lt;td&gt;line12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;line21&lt;/td&gt;
+&lt;td&gt;line22&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;line31&lt;/td&gt;
+&lt;td&gt;line32&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th align="center"&gt;Academy&lt;/th&gt;
+&lt;th align="right"&gt;score&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Harry Potter&lt;/td&gt;
+&lt;td align="center"&gt;Gryffindor&lt;/td&gt;
+&lt;td align="right"&gt;90&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Hermione Granger&lt;/td&gt;
+&lt;td align="center"&gt;Gryffindor&lt;/td&gt;
+&lt;td align="right"&gt;100&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Draco Malfoy&lt;/td&gt;
+&lt;td align="center"&gt;Slytherin&lt;/td&gt;
+&lt;td align="right"&gt;90&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;ANDROID手机上使用atimelogger，践行“没有记录，就没有发生，没有记录便无法管理”。&lt;/p&gt;
+&lt;p&gt;“乱的开始，也比‘等准备好一切再开始’强，开始……开始习惯……慢慢完善”&lt;/p&gt;</content><category term="misc"></category><category term="live"></category><category term="time"></category></entry><entry><title>time management and high effect</title><link href="https://lcmust.github.io/time-management-and-high-effect.html" rel="alternate"></link><published>2019-01-20T07:58:03+08:00</published><updated>2019-01-20T07:58:03+08:00</updated><author><name>lcmust@qq.com</name></author><id>tag:lcmust.github.io,2019-01-20:/time-management-and-high-effect.html</id><summary type="html">&lt;p&gt;关于“时间管理与高效能”的学习&lt;/p&gt;
+&lt;h2 id="_1"&gt;学习内容选择：&lt;a class="headerlink" href="#_1" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;&amp;lt;高效能人士的 7 个习惯&amp;gt;&amp;gt; -- 史蒂芬·柯维（美）&lt;/li&gt;
+&lt;li&gt;&amp;lt;&amp;lt;时间管理 100 讲&amp;gt;&amp;gt; -- 喜马拉雅 FM 易武滨&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="_2"&gt;要点&lt;a class="headerlink" href="#_2" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;20/80 原则 专著于重要的事情&lt;/li&gt;
+&lt;li&gt;4D 做重要的事，推迟不重要的事，委托其他人能做的事，删除不需要做的事&lt;/li&gt;
+&lt;li&gt;收集记录事情、分类事情、启动蕃茄钟 20 分钟&lt;strong&gt;专著&lt;/strong&gt;事情、休息 5 分钟记录&lt;/li&gt;
+&lt;li&gt;记录时间、分析时间、安排时间&lt;/li&gt;
+&lt;li&gt;积极主动、要事第一、以终为始&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="_3"&gt;工具使用&lt;a class="headerlink" href="#_3" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;纸和笔&lt;/li&gt;
+&lt;li&gt;手机 APP PC 端跨平台软件： OmniFocus Evernote …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;关于“时间管理与高效能”的学习&lt;/p&gt;
+&lt;h2 id="_1"&gt;学习内容选择：&lt;a class="headerlink" href="#_1" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;&amp;lt;高效能人士的 7 个习惯&amp;gt;&amp;gt; -- 史蒂芬·柯维（美）&lt;/li&gt;
+&lt;li&gt;&amp;lt;&amp;lt;时间管理 100 讲&amp;gt;&amp;gt; -- 喜马拉雅 FM 易武滨&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="_2"&gt;要点&lt;a class="headerlink" href="#_2" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;20/80 原则 专著于重要的事情&lt;/li&gt;
+&lt;li&gt;4D 做重要的事，推迟不重要的事，委托其他人能做的事，删除不需要做的事&lt;/li&gt;
+&lt;li&gt;收集记录事情、分类事情、启动蕃茄钟 20 分钟&lt;strong&gt;专著&lt;/strong&gt;事情、休息 5 分钟记录&lt;/li&gt;
+&lt;li&gt;记录时间、分析时间、安排时间&lt;/li&gt;
+&lt;li&gt;积极主动、要事第一、以终为始&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="_3"&gt;工具使用&lt;a class="headerlink" href="#_3" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;纸和笔&lt;/li&gt;
+&lt;li&gt;手机 APP PC 端跨平台软件： OmniFocus Evernote&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;淘宝蕃茄钟&lt;/em&gt; ~~删除不必要的工具~~&lt;/li&gt;
+&lt;/ul&gt;</content><category term="misc"></category><category term="live"></category><category term="time"></category></entry><entry><title>Second article</title><link href="https://lcmust.github.io/second-article-en.html" rel="alternate"></link><published>2012-02-29T00:00:00+08:00</published><updated>2012-02-29T00:00:00+08:00</updated><author><name>lcmust@qq.com</name></author><id>tag:lcmust.github.io,2012-02-29:/second-article-en.html</id><content type="html">&lt;p&gt;This is some article, in english&lt;/p&gt;
+</content><category term="misc"></category><category term="foo"></category><category term="bar"></category><category term="baz"></category></entry></feed>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>fastman time-manage - live, pelican</title><link href="https://lcmust.github.io/" rel="alternate"></link><link href="https://lcmust.github.io/feeds/live-pelican.atom.xml" rel="self"></link><id>https://lcmust.github.io/</id><updated>2019-01-23T00:00:00+08:00</updated><entry><title>使用pelican创建静态博客</title><link href="https://lcmust.github.io/shi-yong-pelicanchuang-jian-jing-tai-bo-ke.html" rel="alternate"></link><published>2019-01-23T00:00:00+08:00</published><updated>2019-01-23T00:00:00+08:00</updated><author><name>lcmust@qq.com</name></author><id>tag:lcmust.github.io,2019-01-23:/shi-yong-pelicanchuang-jian-jing-tai-bo-ke.html</id><summary type="html">
+&lt;h3 id="_1"&gt;创建工作目录&lt;a class="headerlink" href="#_1" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="pippelicanmarkdown"&gt;首先使用pip安装pelican和markdown&lt;a class="headerlink" href="#pippelicanmarkdown" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;pip install pelican markdown&lt;/p&gt;
+&lt;h4 id="_2"&gt;然后创建目录&lt;a class="headerlink" href="#_2" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;mkdir my_blog &lt;/p&gt;
+&lt;p&gt;接着进入目录cd my_blog，执行pelican-quickstart，当前目录内就会生成默认配置好的文件&lt;/p&gt;
+&lt;h4 id="_3"&gt;修改配置&lt;a class="headerlink" href="#_3" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;pelicanconf.py是博客的配置文件&lt;/p&gt;
+&lt;h4 id="_4"&gt;使用主题和插件&lt;a class="headerlink" href="#_4" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;获取主题：git clone git://github.com/getpelican/pelican-themes.git&lt;/p&gt;
+&lt;p&gt;获取插件：git clone git://github.com/getpelican/pelican-plugins.git&lt;/p&gt;
+&lt;p&gt;修改pelicanconf.py文件，使主题和插件生效：&lt;/p&gt;
+&lt;p&gt;THEME = 'pelican-themes/pelican-bootstrap3' #直接指定主题目录&lt;/p&gt;
+&lt;p&gt;PLUGIN_PATHS = ["plugins", "pelican-plugins"] #pelican-plugins为插件总目录&lt;/p&gt;
+&lt;p&gt;PLUGINS = ['tag_cloud', 'related_posts'] #插件总目录里的插件 …&lt;/p&gt;</summary><content type="html">
+&lt;h3 id="_1"&gt;创建工作目录&lt;a class="headerlink" href="#_1" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="pippelicanmarkdown"&gt;首先使用pip安装pelican和markdown&lt;a class="headerlink" href="#pippelicanmarkdown" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;pip install pelican markdown&lt;/p&gt;
+&lt;h4 id="_2"&gt;然后创建目录&lt;a class="headerlink" href="#_2" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;mkdir my_blog &lt;/p&gt;
+&lt;p&gt;接着进入目录cd my_blog，执行pelican-quickstart，当前目录内就会生成默认配置好的文件&lt;/p&gt;
+&lt;h4 id="_3"&gt;修改配置&lt;a class="headerlink" href="#_3" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;pelicanconf.py是博客的配置文件&lt;/p&gt;
+&lt;h4 id="_4"&gt;使用主题和插件&lt;a class="headerlink" href="#_4" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;获取主题：git clone git://github.com/getpelican/pelican-themes.git&lt;/p&gt;
+&lt;p&gt;获取插件：git clone git://github.com/getpelican/pelican-plugins.git&lt;/p&gt;
+&lt;p&gt;修改pelicanconf.py文件，使主题和插件生效：&lt;/p&gt;
+&lt;p&gt;THEME = 'pelican-themes/pelican-bootstrap3' #直接指定主题目录&lt;/p&gt;
+&lt;p&gt;PLUGIN_PATHS = ["plugins", "pelican-plugins"] #pelican-plugins为插件总目录&lt;/p&gt;
+&lt;p&gt;PLUGINS = ['tag_cloud', 'related_posts'] #插件总目录里的插件(文件夹)名&lt;/p&gt;
+&lt;h4 id="github-pages"&gt;上传到GitHub Pages&lt;a class="headerlink" href="#github-pages" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;域名设置&lt;/p&gt;
+&lt;p&gt;在content/extra/内添加CNAME文件，CNAME里只需写入一行域名，例如：github.com&lt;/p&gt;
+&lt;p&gt;修改pelianconf.py:&lt;/p&gt;
+&lt;p&gt;STATIC_PATHS = ['extra']&lt;/p&gt;
+&lt;p&gt;EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}&lt;/p&gt;
+&lt;p&gt;git操作&lt;/p&gt;
+&lt;p&gt;cd output&lt;/p&gt;
+&lt;p&gt;git init&lt;/p&gt;
+&lt;p&gt;git remote add origin https://github.com/your_name/your_blog.git&lt;/p&gt;
+&lt;p&gt;git add -A&lt;/p&gt;
+&lt;p&gt;git commit -am "update blog"&lt;/p&gt;
+&lt;p&gt;git pull origin master&lt;/p&gt;
+&lt;p&gt;git push origin master&lt;/p&gt;
+&lt;p&gt;以后更新网站只需要执行：&lt;/p&gt;
+&lt;p&gt;cd my_blog&lt;/p&gt;
+&lt;p&gt;make html&lt;/p&gt;
+&lt;p&gt;make publish&lt;/p&gt;</content><category term="live, pelican"></category></entry></feed>

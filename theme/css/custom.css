@@ -1,0 +1,22 @@
+.navbar-static-top {
+    position: static;
+}
+ .table-of-content {
+    background-color: gray;
+    /*position: fixed;*/
+
+}
+
+.table-of-content .toc {
+  font-size: 0.9em;
+}
+
+.toc {
+    background-color: orange;
+    position: relative;
+}
+
+.article-content {
+        background-color: lightgreen;
+
+}

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>fastman time-manage</title><link href="https://lcmust.github.io/" rel="alternate"></link><link href="https://lcmust.github.io/feeds/all.atom.xml" rel="self"></link><id>https://lcmust.github.io/</id><updated>2019-02-27T07:58:03+08:00</updated><entry><title>time-recored</title><link href="https://lcmust.github.io/time-recored.html" rel="alternate"></link><published>2019-02-27T07:58:03+08:00</published><updated>2019-02-27T07:58:03+08:00</updated><author><name>lcmust@qq.com</name></author><id>tag:lcmust.github.io,2019-02-27:/time-recored.html</id><summary type="html">&lt;!-- Status: draft --&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;时间记录--养成记录时间使用的习惯&lt;/p&gt;
+&lt;p&gt;1 起床 06:40
+2 洗漱 06:45
+3 flask_bootstrapVue 07:40
+4 俯卧撑35 07:45
+5 this-recored5 07:50
+6 newpelicanBlog 08:05
+7 WWCC 08:15
+8 clearBody 08:20
+9 breakfast 08:40
+10 bikework 08:45
+11 towork 08:55&lt;/p&gt;
+&lt;p&gt;学习使用markdown，表格中无样式，难道是要自己添加CSS样式？&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;tables&lt;/th&gt;
+&lt;th&gt;are …&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;/table&gt;</summary><content type="html">&lt;!-- Status: draft --&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;时间记录--养成记录时间使用的习惯&lt;/p&gt;
+&lt;p&gt;1 起床 06:40
+2 洗漱 06:45
+3 flask_bootstrapVue 07:40
+4 俯卧撑35 07:45
+5 this-recored5 07:50
+6 newpelicanBlog 08:05
+7 WWCC 08:15
+8 clearBody 08:20
+9 breakfast 08:40
+10 bikework 08:45
+11 towork 08:55&lt;/p&gt;
+&lt;p&gt;学习使用markdown，表格中无样式，难道是要自己添加CSS样式？&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;tables&lt;/th&gt;
+&lt;th&gt;are&lt;/th&gt;
+&lt;th&gt;here&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;row1&lt;/td&gt;
+&lt;td&gt;row2&lt;/td&gt;
+&lt;td&gt;row3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;line11&lt;/td&gt;
+&lt;td&gt;line12&lt;/td&gt;
+&lt;td&gt;line13&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;line21&lt;/td&gt;
+&lt;td&gt;line22&lt;/td&gt;
+&lt;td&gt;line23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;table1&lt;/th&gt;
+&lt;th&gt;table2&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;line11&lt;/td&gt;
+&lt;td&gt;line12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;line21&lt;/td&gt;
+&lt;td&gt;line22&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;line31&lt;/td&gt;
+&lt;td&gt;line32&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th align="center"&gt;Academy&lt;/th&gt;
+&lt;th align="right"&gt;score&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Harry Potter&lt;/td&gt;
+&lt;td align="center"&gt;Gryffindor&lt;/td&gt;
+&lt;td align="right"&gt;90&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Hermione Granger&lt;/td&gt;
+&lt;td align="center"&gt;Gryffindor&lt;/td&gt;
+&lt;td align="right"&gt;100&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Draco Malfoy&lt;/td&gt;
+&lt;td align="center"&gt;Slytherin&lt;/td&gt;
+&lt;td align="right"&gt;90&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;ANDROID手机上使用atimelogger，践行“没有记录，就没有发生，没有记录便无法管理”。&lt;/p&gt;
+&lt;p&gt;“乱的开始，也比‘等准备好一切再开始’强，开始……开始习惯……慢慢完善”&lt;/p&gt;</content><category term="misc"></category><category term="live"></category><category term="time"></category></entry><entry><title>使用pelican创建静态博客</title><link href="https://lcmust.github.io/shi-yong-pelicanchuang-jian-jing-tai-bo-ke.html" rel="alternate"></link><published>2019-01-23T00:00:00+08:00</published><updated>2019-01-23T00:00:00+08:00</updated><author><name>lcmust@qq.com</name></author><id>tag:lcmust.github.io,2019-01-23:/shi-yong-pelicanchuang-jian-jing-tai-bo-ke.html</id><summary type="html">
+&lt;h3 id="_1"&gt;创建工作目录&lt;a class="headerlink" href="#_1" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="pippelicanmarkdown"&gt;首先使用pip安装pelican和markdown&lt;a class="headerlink" href="#pippelicanmarkdown" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;pip install pelican markdown&lt;/p&gt;
+&lt;h4 id="_2"&gt;然后创建目录&lt;a class="headerlink" href="#_2" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;mkdir my_blog &lt;/p&gt;
+&lt;p&gt;接着进入目录cd my_blog，执行pelican-quickstart，当前目录内就会生成默认配置好的文件&lt;/p&gt;
+&lt;h4 id="_3"&gt;修改配置&lt;a class="headerlink" href="#_3" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;pelicanconf.py是博客的配置文件&lt;/p&gt;
+&lt;h4 id="_4"&gt;使用主题和插件&lt;a class="headerlink" href="#_4" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;获取主题：git clone git://github.com/getpelican/pelican-themes.git&lt;/p&gt;
+&lt;p&gt;获取插件：git clone git://github.com/getpelican/pelican-plugins.git&lt;/p&gt;
+&lt;p&gt;修改pelicanconf.py文件，使主题和插件生效：&lt;/p&gt;
+&lt;p&gt;THEME = 'pelican-themes/pelican-bootstrap3' #直接指定主题目录&lt;/p&gt;
+&lt;p&gt;PLUGIN_PATHS = ["plugins", "pelican-plugins"] #pelican-plugins为插件总目录&lt;/p&gt;
+&lt;p&gt;PLUGINS = ['tag_cloud', 'related_posts'] #插件总目录里的插件 …&lt;/p&gt;</summary><content type="html">
+&lt;h3 id="_1"&gt;创建工作目录&lt;a class="headerlink" href="#_1" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="pippelicanmarkdown"&gt;首先使用pip安装pelican和markdown&lt;a class="headerlink" href="#pippelicanmarkdown" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;pip install pelican markdown&lt;/p&gt;
+&lt;h4 id="_2"&gt;然后创建目录&lt;a class="headerlink" href="#_2" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;mkdir my_blog &lt;/p&gt;
+&lt;p&gt;接着进入目录cd my_blog，执行pelican-quickstart，当前目录内就会生成默认配置好的文件&lt;/p&gt;
+&lt;h4 id="_3"&gt;修改配置&lt;a class="headerlink" href="#_3" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;pelicanconf.py是博客的配置文件&lt;/p&gt;
+&lt;h4 id="_4"&gt;使用主题和插件&lt;a class="headerlink" href="#_4" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;获取主题：git clone git://github.com/getpelican/pelican-themes.git&lt;/p&gt;
+&lt;p&gt;获取插件：git clone git://github.com/getpelican/pelican-plugins.git&lt;/p&gt;
+&lt;p&gt;修改pelicanconf.py文件，使主题和插件生效：&lt;/p&gt;
+&lt;p&gt;THEME = 'pelican-themes/pelican-bootstrap3' #直接指定主题目录&lt;/p&gt;
+&lt;p&gt;PLUGIN_PATHS = ["plugins", "pelican-plugins"] #pelican-plugins为插件总目录&lt;/p&gt;
+&lt;p&gt;PLUGINS = ['tag_cloud', 'related_posts'] #插件总目录里的插件(文件夹)名&lt;/p&gt;
+&lt;h4 id="github-pages"&gt;上传到GitHub Pages&lt;a class="headerlink" href="#github-pages" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;域名设置&lt;/p&gt;
+&lt;p&gt;在content/extra/内添加CNAME文件，CNAME里只需写入一行域名，例如：github.com&lt;/p&gt;
+&lt;p&gt;修改pelianconf.py:&lt;/p&gt;
+&lt;p&gt;STATIC_PATHS = ['extra']&lt;/p&gt;
+&lt;p&gt;EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}&lt;/p&gt;
+&lt;p&gt;git操作&lt;/p&gt;
+&lt;p&gt;cd output&lt;/p&gt;
+&lt;p&gt;git init&lt;/p&gt;
+&lt;p&gt;git remote add origin https://github.com/your_name/your_blog.git&lt;/p&gt;
+&lt;p&gt;git add -A&lt;/p&gt;
+&lt;p&gt;git commit -am "update blog"&lt;/p&gt;
+&lt;p&gt;git pull origin master&lt;/p&gt;
+&lt;p&gt;git push origin master&lt;/p&gt;
+&lt;p&gt;以后更新网站只需要执行：&lt;/p&gt;
+&lt;p&gt;cd my_blog&lt;/p&gt;
+&lt;p&gt;make html&lt;/p&gt;
+&lt;p&gt;make publish&lt;/p&gt;</content><category term="live, pelican"></category></entry><entry><title>time management and high effect</title><link href="https://lcmust.github.io/time-management-and-high-effect.html" rel="alternate"></link><published>2019-01-20T07:58:03+08:00</published><updated>2019-01-20T07:58:03+08:00</updated><author><name>lcmust@qq.com</name></author><id>tag:lcmust.github.io,2019-01-20:/time-management-and-high-effect.html</id><summary type="html">&lt;p&gt;关于“时间管理与高效能”的学习&lt;/p&gt;
+&lt;h2 id="_1"&gt;学习内容选择：&lt;a class="headerlink" href="#_1" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;&amp;lt;高效能人士的 7 个习惯&amp;gt;&amp;gt; -- 史蒂芬·柯维（美）&lt;/li&gt;
+&lt;li&gt;&amp;lt;&amp;lt;时间管理 100 讲&amp;gt;&amp;gt; -- 喜马拉雅 FM 易武滨&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="_2"&gt;要点&lt;a class="headerlink" href="#_2" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;20/80 原则 专著于重要的事情&lt;/li&gt;
+&lt;li&gt;4D 做重要的事，推迟不重要的事，委托其他人能做的事，删除不需要做的事&lt;/li&gt;
+&lt;li&gt;收集记录事情、分类事情、启动蕃茄钟 20 分钟&lt;strong&gt;专著&lt;/strong&gt;事情、休息 5 分钟记录&lt;/li&gt;
+&lt;li&gt;记录时间、分析时间、安排时间&lt;/li&gt;
+&lt;li&gt;积极主动、要事第一、以终为始&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="_3"&gt;工具使用&lt;a class="headerlink" href="#_3" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;纸和笔&lt;/li&gt;
+&lt;li&gt;手机 APP PC 端跨平台软件： OmniFocus Evernote …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;关于“时间管理与高效能”的学习&lt;/p&gt;
+&lt;h2 id="_1"&gt;学习内容选择：&lt;a class="headerlink" href="#_1" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;&amp;lt;高效能人士的 7 个习惯&amp;gt;&amp;gt; -- 史蒂芬·柯维（美）&lt;/li&gt;
+&lt;li&gt;&amp;lt;&amp;lt;时间管理 100 讲&amp;gt;&amp;gt; -- 喜马拉雅 FM 易武滨&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="_2"&gt;要点&lt;a class="headerlink" href="#_2" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;20/80 原则 专著于重要的事情&lt;/li&gt;
+&lt;li&gt;4D 做重要的事，推迟不重要的事，委托其他人能做的事，删除不需要做的事&lt;/li&gt;
+&lt;li&gt;收集记录事情、分类事情、启动蕃茄钟 20 分钟&lt;strong&gt;专著&lt;/strong&gt;事情、休息 5 分钟记录&lt;/li&gt;
+&lt;li&gt;记录时间、分析时间、安排时间&lt;/li&gt;
+&lt;li&gt;积极主动、要事第一、以终为始&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="_3"&gt;工具使用&lt;a class="headerlink" href="#_3" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;纸和笔&lt;/li&gt;
+&lt;li&gt;手机 APP PC 端跨平台软件： OmniFocus Evernote&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;淘宝蕃茄钟&lt;/em&gt; ~~删除不必要的工具~~&lt;/li&gt;
+&lt;/ul&gt;</content><category term="misc"></category><category term="live"></category><category term="time"></category></entry><entry><title>Quickly get a GitHub hosted blog with Pelican, Elegant with little setup steps.</title><link href="https://lcmust.github.io/quickly-get-a-github-hosted-blog-with-pelican-elegant-with-little-setup-steps.html" rel="alternate"></link><published>2019-01-11T17:30:47+01:00</published><updated>2019-01-11T17:30:47+01:00</updated><author><name>Pablo Iranzo Gómez</name></author><id>tag:lcmust.github.io,2019-01-11:/quickly-get-a-github-hosted-blog-with-pelican-elegant-with-little-setup-steps.html</id><summary type="html">
+&lt;h1 id="introduction"&gt;Introduction&lt;a class="headerlink" href="#introduction" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;We're using automation for some of the aspects of Elegant development, but one of the issues for users trying to setup a new site with Pelican is to download plugins, theme, doing configuration, etc.&lt;/p&gt;
+&lt;p&gt;Based on this feedback, a new 'blog-o-matic' approach has been tested:&lt;/p&gt;
+&lt;h1 id="the-approach"&gt;The approach&lt;a class="headerlink" href="#the-approach" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://github.com/iranzo/blog-o-matic/"&gt;Blog-o-Matic&lt;/a&gt;, uses …&lt;/p&gt;</summary><content type="html">
+&lt;h1 id="introduction"&gt;Introduction&lt;a class="headerlink" href="#introduction" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;We're using automation for some of the aspects of Elegant development, but one of the issues for users trying to setup a new site with Pelican is to download plugins, theme, doing configuration, etc.&lt;/p&gt;
+&lt;p&gt;Based on this feedback, a new 'blog-o-matic' approach has been tested:&lt;/p&gt;
+&lt;h1 id="the-approach"&gt;The approach&lt;a class="headerlink" href="#the-approach" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://github.com/iranzo/blog-o-matic/"&gt;Blog-o-Matic&lt;/a&gt;, uses several discussed topics so far:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com"&gt;Github&lt;/a&gt; and GH Pages for hosting the source and the website&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://travis-ci.org"&gt;Travis-CI.org&lt;/a&gt; for automating the update and generation process&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.getpelican.com/"&gt;'Pelican'&lt;/a&gt; for static rendering of your blog from the markdown or AsciiDoc articles&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Pelican-Elegant/elegant"&gt;'Elegant'&lt;/a&gt; for the 'Theme'&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/buildinspace/peru"&gt;peru&lt;/a&gt; for automating repository upgrades for plugins, etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The setup process is outlined at its &lt;a href="https://github.com/iranzo/blog-o-matic/"&gt;README.md&lt;/a&gt; and just requires a few steps to setup that, from that point, will allow you to get your website published each time you commit a new document to the content folder.&lt;/p&gt;
+&lt;p&gt;You can also check the 'generated' website after installation via &lt;a href="https://iranzo.github.io/blog-o-matic"&gt;https://iranzo.github.io/blog-o-matic&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="how-does-it-work-under-the-hood"&gt;How does it work under the hood?&lt;a class="headerlink" href="#how-does-it-work-under-the-hood" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;The repository, contains already the required setups and configurations for setting up a blog using github pages.&lt;/p&gt;
+&lt;p&gt;It requires some manual steps like configuring authentication token in order for automation to 'push' to github the 'rendered webpage', plus enabling 'Travis CI' automation for doing that step.&lt;/p&gt;
+&lt;p&gt;Check the updated &lt;a href="https://github.com/iranzo/blog-o-matic"&gt;README on Blog-o-Matic&lt;/a&gt; if you're interested in the setup, but thing is:&lt;/p&gt;
+&lt;h2 id="setup"&gt;Setup&lt;a class="headerlink" href="#setup" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Repository contains already predefined Travis CI configuration&lt;/li&gt;
+&lt;li&gt;A GH token is needed for Travis CI to push to the 'master' branch that is used by github pages&lt;/li&gt;
+&lt;li&gt;The token needs to be configured as environment variable in 'travis-ci.org' which needs to be enabled for your repository&lt;/li&gt;
+&lt;li&gt;Once this is done, all the automation is ready.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="automation-workflow"&gt;Automation workflow&lt;a class="headerlink" href="#automation-workflow" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The automation, on a new 'commit' (new config, new article, whatever), that can be even done via github.com Web User Interface, will launch a set of tasks:&lt;/p&gt;
+&lt;h3 id="preparation"&gt;Preparation&lt;a class="headerlink" href="#preparation" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Setup python environment (Pelican uses python)&lt;/li&gt;
+&lt;li&gt;Install tool 'peru' to sync from other repositories (for later syncing plugins, latest theme, etc)&lt;/li&gt;
+&lt;li&gt;Launch the synchronization of themes, plugins etc (as defined in &lt;code&gt;peru.yaml&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="validation"&gt;Validation&lt;a class="headerlink" href="#validation" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Validate that web page builds (&lt;code&gt;make html&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Validate that it builds with publish configuration (&lt;code&gt;make publish&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="deployment"&gt;Deployment&lt;a class="headerlink" href="#deployment" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Copy extra files to generated website&lt;/li&gt;
+&lt;li&gt;Update the checked out git config to use https so that we can use the token defined in environment variable &lt;code&gt;GHTOKEN&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Regenerate website and push to github&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="blog-is-ready"&gt;Blog is ready!&lt;a class="headerlink" href="#blog-is-ready" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;At this point, Travis CI will have built the blog with the sample content &lt;code&gt;content/welcome.md&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Keep adding new files to your new repository in the &lt;code&gt;content/&lt;/code&gt; folder and check the configuration settings in &lt;code&gt;pelicanconf.py&lt;/code&gt; to customize your name, twitter, SEO, etc&lt;/p&gt;
+&lt;p&gt;Bear in mind, that at this point you're using a regular Elegant setup with Pelican and some Pelican Plugins, so refer to &lt;code&gt;peru.yaml&lt;/code&gt; for the URLs containing the files and extra information that might be helpful for you to learn on the features and customization possibilities.&lt;/p&gt;
+&lt;p&gt;Enjoy your Elegant blog!&lt;/p&gt;</content><category term="101 — Quick Start"></category><category term="pelican"></category><category term="foss"></category><category term="travis"></category><category term="ci/cd"></category><category term="elegant"></category><category term="blog"></category><category term="python"></category><category term="github"></category><category term="blog-o-matic"></category></entry><entry><title>Second article</title><link href="https://lcmust.github.io/second-article-en.html" rel="alternate"></link><published>2012-02-29T00:00:00+08:00</published><updated>2012-02-29T00:00:00+08:00</updated><author><name>lcmust@qq.com</name></author><id>tag:lcmust.github.io,2012-02-29:/second-article-en.html</id><content type="html">&lt;p&gt;This is some article, in english&lt;/p&gt;
+</content><category term="misc"></category><category term="foo"></category><category term="bar"></category><category term="baz"></category></entry></feed>
