@@ -14,12 +14,12 @@
 
 <meta property="og:title" content="使用pelican创建静态博客 "/>
 <meta property="og:url" content="/shi-yong-pelicanchuang-jian-jing-tai-bo-ke.html" />
-<meta property="og:description" content="创建工作目录¶ 首先使用pip安装pelican和markdown¶ pip install pelican markdown 然后创建目录¶ mkdir my_blog 接着进入目录cd my_blog，执行pelican-quickstart，当前目录内就会生成默认配置好的文件 修改配置¶ pelicanconf.py是博客的配置文件 使用主题和插件¶ 获取主题：git clone git://github.com/getpelican/pelican-themes.git 获取插件：git clone git://github.com/getpelican/pelican-plugins.git 修改pelicanconf.py文件，使主题和插件生效： THEME = &#39;pelican-themes/pelican-bootstrap3&#39; #直接指定主题目录 PLUGIN_PATHS = [&#34;plugins&#34;, &#34;pelican-plugins&#34;] #pelican-plugins为插件总目录 PLUGINS = [&#39;tag_cloud&#39;, &#39;related_posts&#39;] #插件总目录里的插件 …" />
+<meta property="og:description" content="首先使用pip安装pelican和markdown¶ pip install pelican markdown 然后创建目录¶ mkdir my_blog 接着进入目录cd my_blog，执行pelican-quickstart，当前目录内就会生成默认配置好的文件 mkdir my_blog cd my_blog pelican-quickstart 修改配置¶ pelicanconf.py是博客的配置文件 使用主题和插件¶ 获取主题：git clone git://github.com/getpelican/pelican-themes.git 获取插件：git clone git://github.com/getpelican/pelican-plugins.git 修改pelicanconf.py文件，使主题和插件生效： THEME = &#39;pelican-themes/pelican-bootstrap3&#39; #直接指定主题目录 PLUGIN_PATHS = [&#34;plugins&#34;, &#34;pelican-plugins&#34;] #pelican-plugins为插件总目录 …" />
 <meta property="og:site_name" content="fastman time-manage" />
 <meta property="og:article:author" content="lcmust@qq.com" />
 <meta property="og:article:published_time" content="2019-01-23T00:00:00+08:00" />
 <meta name="twitter:title" content="使用pelican创建静态博客 ">
-<meta name="twitter:description" content="创建工作目录¶ 首先使用pip安装pelican和markdown¶ pip install pelican markdown 然后创建目录¶ mkdir my_blog 接着进入目录cd my_blog，执行pelican-quickstart，当前目录内就会生成默认配置好的文件 修改配置¶ pelicanconf.py是博客的配置文件 使用主题和插件¶ 获取主题：git clone git://github.com/getpelican/pelican-themes.git 获取插件：git clone git://github.com/getpelican/pelican-plugins.git 修改pelicanconf.py文件，使主题和插件生效： THEME = &#39;pelican-themes/pelican-bootstrap3&#39; #直接指定主题目录 PLUGIN_PATHS = [&#34;plugins&#34;, &#34;pelican-plugins&#34;] #pelican-plugins为插件总目录 PLUGINS = [&#39;tag_cloud&#39;, &#39;related_posts&#39;] #插件总目录里的插件 …">
+<meta name="twitter:description" content="首先使用pip安装pelican和markdown¶ pip install pelican markdown 然后创建目录¶ mkdir my_blog 接着进入目录cd my_blog，执行pelican-quickstart，当前目录内就会生成默认配置好的文件 mkdir my_blog cd my_blog pelican-quickstart 修改配置¶ pelicanconf.py是博客的配置文件 使用主题和插件¶ 获取主题：git clone git://github.com/getpelican/pelican-themes.git 获取插件：git clone git://github.com/getpelican/pelican-plugins.git 修改pelicanconf.py文件，使主题和插件生效： THEME = &#39;pelican-themes/pelican-bootstrap3&#39; #直接指定主题目录 PLUGIN_PATHS = [&#34;plugins&#34;, &#34;pelican-plugins&#34;] #pelican-plugins为插件总目录 …">
 
     <title>使用pelican创建静态博客  ·
 fastman time-manage
@@ -85,14 +85,11 @@ fastman time-manage
                 <h4>Contents</h4>
                 <div class="toc">
 <ul>
-<li><a href="#_1">创建工作目录</a><ul>
 <li><a href="#pippelicanmarkdown">首先使用pip安装pelican和markdown</a></li>
-<li><a href="#_2">然后创建目录</a></li>
-<li><a href="#_3">修改配置</a></li>
-<li><a href="#_4">使用主题和插件</a></li>
+<li><a href="#_1">然后创建目录</a></li>
+<li><a href="#_2">修改配置</a></li>
+<li><a href="#_3">使用主题和插件</a></li>
 <li><a href="#github-pages">上传到GitHub Pages</a></li>
-</ul>
-</li>
 </ul>
 </div>
             </nav>
@@ -100,22 +97,24 @@ fastman time-manage
         <div class="span8 offset2 article-content">
                 
                 
-<h3 id="_1">创建工作目录<a class="headerlink" href="#_1" title="Permanent link">¶</a></h3>
-<h4 id="pippelicanmarkdown">首先使用pip安装pelican和markdown<a class="headerlink" href="#pippelicanmarkdown" title="Permanent link">¶</a></h4>
+<h3 id="pippelicanmarkdown">首先使用pip安装pelican和markdown<a class="headerlink" href="#pippelicanmarkdown" title="Permanent link">¶</a></h3>
 <p>pip install pelican markdown</p>
-<h4 id="_2">然后创建目录<a class="headerlink" href="#_2" title="Permanent link">¶</a></h4>
+<h3 id="_1">然后创建目录<a class="headerlink" href="#_1" title="Permanent link">¶</a></h3>
 <p>mkdir my_blog </p>
 <p>接着进入目录cd my_blog，执行pelican-quickstart，当前目录内就会生成默认配置好的文件</p>
-<h4 id="_3">修改配置<a class="headerlink" href="#_3" title="Permanent link">¶</a></h4>
+<p>mkdir my_blog</p>
+<p>cd my_blog</p>
+<p>pelican-quickstart</p>
+<h3 id="_2">修改配置<a class="headerlink" href="#_2" title="Permanent link">¶</a></h3>
 <p>pelicanconf.py是博客的配置文件</p>
-<h4 id="_4">使用主题和插件<a class="headerlink" href="#_4" title="Permanent link">¶</a></h4>
+<h3 id="_3">使用主题和插件<a class="headerlink" href="#_3" title="Permanent link">¶</a></h3>
 <p>获取主题：git clone git://github.com/getpelican/pelican-themes.git</p>
 <p>获取插件：git clone git://github.com/getpelican/pelican-plugins.git</p>
 <p>修改pelicanconf.py文件，使主题和插件生效：</p>
 <p>THEME = 'pelican-themes/pelican-bootstrap3' #直接指定主题目录</p>
 <p>PLUGIN_PATHS = ["plugins", "pelican-plugins"] #pelican-plugins为插件总目录</p>
 <p>PLUGINS = ['tag_cloud', 'related_posts'] #插件总目录里的插件(文件夹)名</p>
-<h4 id="github-pages">上传到GitHub Pages<a class="headerlink" href="#github-pages" title="Permanent link">¶</a></h4>
+<h3 id="github-pages">上传到GitHub Pages<a class="headerlink" href="#github-pages" title="Permanent link">¶</a></h3>
 <p>域名设置</p>
 <p>在content/extra/内添加CNAME文件，CNAME里只需写入一行域名，例如：github.com</p>
 <p>修改pelianconf.py:</p>
